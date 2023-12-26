@@ -29,3 +29,15 @@ Currently, after adding an item, the UI does not automatically update to reflect
 1. Clone the repository:
    ```bash
    git clone https://github.com/AtulPandey429/GroceryAssignment
+
+### Install dependencies:
+
+# Go to the server directory
+cd server
+npm intstall
+Start the backend: nodemon server.js
+
+# Go to the client directory
+cd client
+npm install
+start the frontend : npm run dev
