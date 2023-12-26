@@ -24,15 +24,15 @@ Currently, after adding an item, the UI does not automatically update to reflect
 
 ## Getting Started
 
-
 ### Install dependencies:
 
+```bash
 # Go to the server directory
 cd server
-npm intstall
-Start the backend: nodemon server.js
+npm install
+# Start the backend: nodemon server.js
 
 # Go to the client directory
 cd client
 npm install
-start the frontend : npm run dev
+# Start the frontend: npm run dev
