@@ -24,11 +24,6 @@ Currently, after adding an item, the UI does not automatically update to reflect
 
 ## Getting Started
 
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/AtulPandey429/GroceryAssignment
 
 ### Install dependencies:
 
