@@ -43,6 +43,11 @@ const GroceryList = () => {
             Refresh
           </button>
           <div className="row">
+          <p className="total-items-text">
+        You've Added {groceries.length} items!
+      </p>
+          </div>
+          <div className="row">
             {groceries.map((item) => (
               <div key={item._id} className="col-md-4 mb-4">
                 <div className="card">

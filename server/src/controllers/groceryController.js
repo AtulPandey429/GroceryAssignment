@@ -13,7 +13,7 @@ exports.addGroceryItem = async (req, res) => {
 exports.getAllGroceryItems = async (req, res) => {
   try {
     const items = await Grocery.find();
-    console.log(`items are : ${items}`)
+    // console.log(`items are : ${items}`)
     res.status(200).json(items);
   } catch (err) {
     res.status(500).json({ error: err.message });
